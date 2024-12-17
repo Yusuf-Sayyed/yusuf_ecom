@@ -29,9 +29,8 @@ Navigate to the backend directory:
 Install dependencies:
 `npm i`
 
-Set up environment variables.
-
-In backend under config there is folder named .env
+Set up environment variables. 
+Create a .env file in the backend directory and add the following:
 
 DB_URL: Your database connection URL
 JWT_SECRET_KEY: The secret key for JWT authentication
