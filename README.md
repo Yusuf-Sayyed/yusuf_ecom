@@ -32,7 +32,7 @@ Install dependencies:
 Set up environment variables. 
 Create a .env file in the backend directory and add the following:
 
-DB_URL: Your database connection URL
+`DB_URL: Your database connection URL
 JWT_SECRET_KEY: The secret key for JWT authentication
 JWT_EXPIRES: Token expiration time (e.g., 7d)
 ACTIVATION_SECRET: Secret key for account activation
@@ -45,7 +45,7 @@ STRIPE_API_KEY: API key for Stripe payments
 STRIPE_SECRET_KEY: Secret key for Stripe payments
 CLOUDINARY_NAME: Cloudinary cloud name
 CLOUDINARY_API_KEY: Cloudinary API key
-CLOUDINARY_API_SECRET: Cloudinary API secret
+CLOUDINARY_API_SECRET: Cloudinary API secret`
 
 
 `npm start`
