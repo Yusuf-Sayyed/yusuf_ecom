@@ -30,23 +30,7 @@ Install dependencies:
 `npm i`
 
 Set up environment variables. 
-Create a .env file in the backend directory and add the following:
-
-`DB_URL: Your database connection URL
-JWT_SECRET_KEY: The secret key for JWT authentication
-JWT_EXPIRES: Token expiration time (e.g., 7d)
-ACTIVATION_SECRET: Secret key for account activation
-SMPT_SERVICE: SMTP service provider (e.g., gmail)
-SMPT_HOST: SMTP server host (e.g., smtp.gmail.com)
-SMPT_PORT: SMTP port (e.g., 465)
-SMPT_PASSWORD: SMTP password for the email account
-SMPT_MAIL: Sender email address
-STRIPE_API_KEY: API key for Stripe payments
-STRIPE_SECRET_KEY: Secret key for Stripe payments
-CLOUDINARY_NAME: Cloudinary cloud name
-CLOUDINARY_API_KEY: Cloudinary API key
-CLOUDINARY_API_SECRET: Cloudinary API secret`
-
+Create a .env file in the backend directory 
 
 `npm start`
 Terminal 3: Socket
